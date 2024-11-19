@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import java.util.Date;
 
-public record Purchase() {
+public record Purchase(User user, Double price, Date date) {
 }
